@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card{
+    background-color: aqua !important;
+    text-align: center;
+    transform: translateY(-100vh);
+    position: absolute !important;
+    box-shadow: 1px 1px 15px black;
+    top: 0;
+    max-width:30vw;
+    transition: all 0.4s ease-in-out;
+}
+
+ .card .popup{
+    
+    transform: translateY(0vh);
+}
+
+.btn{
+    background-image:linear-gradient(to right ,pink,yellow) ;
+    color: black;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+
